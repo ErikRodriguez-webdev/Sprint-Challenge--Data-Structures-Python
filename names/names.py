@@ -58,11 +58,11 @@ class BSTNode:
 
 name = BSTNode("M")
 
-# first loop to add Binary search tree
+# first loop to add names into Binary search tree
 for names in names_1:
     name.insert(names)
 
-# second loop to run condition on names and append to duplicates list
+# second loop to run condition on names and if condition is met then append to duplicates list
 for names in names_2:
     if name.contains(names):
         duplicates.append(names)
